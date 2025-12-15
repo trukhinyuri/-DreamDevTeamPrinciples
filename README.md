@@ -1,86 +1,105 @@
-# DevTeam Principles – The Manifesto  
-*Created by **YURIY TRUKHIN**, Nov 2013 — Edition v 4.1.2*
+# The DreamTeam Principles
+*Created by **YURIY TRUKHIN** — v 5.0*
 
-> *<The previous content was removed as demotivating bureaucratic nonsense>*
+> *<The previous content was removed. We don’t need industrial-era management for quantum-era problems.>*
 
-We are the team that will make our company **No. 1**—and we’re unlike anyone else. Because we’re different, we do what others won’t and some deem impossible. We don’t spell out the lowest bar of rules that’ll get you fired ((c) Elon Musk). Instead, we set **incredibly high standards** and hire exceptional people who love pushing their limits every day.  
-We never drop a task until it’s done—no matter how hard it is—and that’s how we grow. We want teammates who drive the right things and act with integrity even when no one is watching.
+We are the team that will make our company **No. 1**. The industrial era is over; we don't treat people like cogs. We operate as a high-frequency organism, valuing **Radical Visibility** and **Cognitive Flow** above all else.
 
-Knowledge—and the initiative to make things better—always comes first. Even better if you both **propose** and **deliver** the improvement.
+We don’t spell out the lowest bar of rules that’ll get you fired. Instead, we set **incredibly high standards** (Talent Density) and hire exceptional people who value autonomy.
+We never drop a task until it’s done—but we prioritize **speed** because speed creates stability. We want teammates who drive the right things and act with **Ethical Autonomy**, building only what they believe in.
 
----
-
-## Horizontal Team
-
-- **No bosses; only consensus.**  
-  If two people can’t agree (normal in distributed systems), call in an *arbitrator* from the horizontal team—someone who lives by these principles, knows the domain deeply, and is trusted by everyone affected. The arbitrator cannot override the consensus rule.
-
-- **Bubble‑up escalation.**  
-  If consensus still fails, escalate upward through each shared‑responsibility layer:
-    1. Project owner
-    2. Owner of the broader area (if multiple teams)
-    3. …and so on, until a common owner is found.  
-       Higher‑level decisions address only their shared scope, then **bubble back down** so each lower scope can implement them with full awareness of downstream impact.
-
-> “It’s better to agree horizontally” — *Alexey Gadalin, Sr Manager AWS EC2*  
-> (An arbitrator might choose something you don’t like — *Yan Leshchinsky, founder Yandex.Cloud, VP AWS*.)
-
-Discuss potentially contentious issues in **team chats**, not private messages—colleagues can step in as spontaneous arbitrators.
-
-**Consensus lets us be smarter together than our competitor’s smartest employee and avoid their mistakes.**
+**Flow**—and the initiative to remove blockers—always comes first. Even better if you build the **Product** that makes the improvement automatic.
 
 ---
 
-## Leaf–Spine Team Structure
+## Horizontal Team (Consent > Consensus)
 
-We don’t blur responsibility inside **#DEVteam**.
+- **No bosses; only Consent.**
+  We do not wait for *Consensus* (everyone agrees), which breeds mediocrity. We operate on **Consent**: *"Is this safe to try?"* If there is no paramount objection—no evidence of immediate harm—we execute. **Bursty iteration** beats slow perfection.
 
-| Role | What It Means |
+- **The Arbitrator Protocol.**
+  If two people jam (normal in distributed systems), call in an *arbitrator*—not a "boss", but the person with the deepest domain competence.
+  > *“An arbitrator might choose something you don’t like. Suck it up and commit.”*
+
+- **Bubble-up Escalation.**
+  Decisions happen at the **Leaf** level (where the code is). Escalate only to unblock.
+  1. Stream Owner
+  2. Product Owner
+  3. ...Higher-level decisions only address shared scope, then **bubble back down**.
+
+**Consent lets us be smarter (and faster) than our competitor’s smartest bureaucracy.**
+
+---
+
+## Leaf–Spine Team Topology
+
+We don’t blur responsibility. We manage **Cognitive Load**, not people.
+
+| Role | What It Means (The Truth) |
 |-----|-----|
-| **Tech Lead** | Independent, respected dev who’s delivered a lot solo, helps others grow, and has great hard & soft skills. Many can exist; it’s not an HR title. |
-| **Owner** | The person who gets “hanged” if the project fails (often called Team Lead or TPO). Owns the entire product, team processes, backlog, and external communication. |
-| **Director of Development** | Gets “hanged” if *any* dev product fails. Steers long‑term tech strategy and empowers teams through **non‑violent leadership**. |
+| **Stream Engineer** | The core unit (Leaf). You deliver value directly to the user. You "Build It and Run It"—but only because the Platform makes running it easy. |
+| **Tech Lead** | A **Bar Raiser**. Independent force who ensures technical excellence and **Flow**. They have no HR power, only the Authority of Competence. |
+| **Owner (The Shield)** | The **Stability Interface**. Their job is to absorb the entropy (chaos) from the business so the team can focus. They stand before the board and say **“I am to blame”** for failures, but privately they demand accountability. |
+| **Director of Department** | Gets "hanged" if the internal product fails to support the Leafs. Steers long-term tech strategy to reduce cognitive load. |
+
+---
+
+## Radical Visibility
+
+We reject "Green/Red" status reports — they are lies.
+We operate with an **Open Order Book**.
+- We show the raw data: the blockers, the queue sizes, the specific "why" behind decisions.
+- **Transparency is the antidote to politics.** If the data is visible, the "shadow agendas" die.
 
 ---
 
 ## Who’s the Most Important?
 
-All **developers, DevOps/SREs, and engineers** who do the work. Above them are only our users—after all, **they pay our salaries**.
+All **Engineers and SREs** who are in the "Flow."
+Above them are only our users (who pay our salaries).
+**Management exists solely to serve as a support function for Engineering.** If a manager isn't removing a blocker or absorbing stress (The Shield), they are overhead.
 
 ---
 
-## Key Goals
+## Vital Signs (Key Goals)
 
-Organizational strategy → Department goals → Development‑division goals, all filtered through our long‑term tech strategy. Achieving big targets **without breaking things** secures the company’s future.
+Forget "Lines of Code". We watch the **DORA Metrics**:
+1. **Deployment Frequency** (On-demand)
+2. **Lead Time for Changes** (Hours, not weeks)
+3. **Time to Restore** (Fix it fast)
+4. **Change Failure Rate** (Don't break it often)
+
+Achieving big targets **without breaking things** secures the company’s future. Speed and Stability are friends, not enemies.
 
 > *From each according to ability, to each according to opportunity.*
 
-Customers see *one organism*; a strong heart is useless if the liver fails.
+---
+
+## The "Keeper" Standard
+
+We are a **Pro Team**, not a family.
+**The Test:** *"If a team member told you they were leaving for a competitor, would you fight hard to keep them?"*
+If the answer is **No**—we give them a generous severance and say goodbye immediately. **Talent Density** is our oxygen.
 
 ---
 
-## About Titles
+## Toxicity Is Evil! (But Silence is Worse)
 
-Forget them—they never keep up with reality.
-
----
-
-## Toxicity Is Evil!
-
-- Any junior or tech lead can tell you you’re doing nonsense—but must argue publicly in chat.
-- Great ideas come from any level and matter equally.
-- We drop honorifics, gender, age, credentials, etc. Everyone’s opinion counts and **respect is the default**.
-- If code is bad, we fix it—writer *or* reviewer can err.
-- Arbitrators help if needed, but listening is better.
+- **Psychological Safety != Comfort.** It means it is safe to take risks and safe to speak up.
+- **Radical Candor:** We care personally, so we **challenge directly**. Ruinous empathy is a fireable offense.
+- **Public Liability, Private Correction:** If code breaks, the Team/Lead takes the blame publicly. Inside, we fix the process instantly.
+- Any junior can tell a Lead they are wrong—but must argue with data in chat.
+- We drop honorifics. **Respect is the default.**
 
 ---
 
 ## The Prime Directive
 
-> **Don’t do stupid stuff**; act so you won’t feel ashamed before users, colleagues, or descendants.
+> **Don’t do stupid stuff**; act so you won’t feel ashamed before users, colleagues, or your future self reading this legacy code.
 
-Know why you earned your salary today. Systems this complex—and a **Dream Team**—can be built only together.
+Know why you earned your salary today. Systems this complex—and a **Dream Team**—can be built only together.
 
 ---
 
-**P.S.** What happens for breaking the rules? *\\*ties a lynch knot murmuring “democracy, democracy”\\** 😉 Just kidding. Rules are written—and updated—collectively. **Feedback welcome!**
+**P.S.** What happens for breaking the rules? *\\*ties a lynch knot murmuring “sociocracy, sociocracy”\\** 😉 Just kidding.
+Rules are written—and updated—collectively based on data. **Pull Requests welcome!**
