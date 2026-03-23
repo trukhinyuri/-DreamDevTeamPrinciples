@@ -1,91 +1,148 @@
-Change Notes: DreamTeam Principles (v 4.1.2 $\to$ v 5.0)
+Change Notes: DreamTeam Principles (v 5.0 → v 6.0)
 
-**Release Date:** Dec 15, 2025
+**Release Date:** March 23, 2026
 **Author:** YURIY TRUKHIN
 
-We are abandoning the "industrial era" paradigm (where people are cogs and success depends on heroism) in favor of **"Quantum Technocracy."**
-In v5.0, the focus shifts from hunting for "rock stars" to managing **Cognitive Load** and creating **Flow**. We acknowledge that modern systems are too complex for a single mind, so the team architecture changes from hierarchical to networked (Leaf-Spine).
+We are moving from "Quantum Technocracy" (v5.0) to **"Post-AI Cell Architecture."**
+In v6.0, the focus shifts from managing Cognitive Load in a Leaf-Spine network to **maximizing impact through AI-augmented autonomous cells.** We acknowledge that AI has fundamentally changed the economics of delivery: the bottleneck is no longer implementation speed but coordination overhead and judgment quality. The team architecture changes from Leaf-Spine to **Domain-Aligned Cells** (3 humans + AI agent fleet).
 
 ---
 
-### 1. Decision Making Model: Consensus $\to$ Consent
-* **Was (v 4.1.2):** *Consensus*. "We wait until everyone agrees."
-* **Now (v 5.0):** *Consent* (Sociocracy). "Is this safe to try?"
+### 1. New Foundation: The Three Laws of Post-AI Infrastructure
+* **New in v6.0:** Three foundational laws replace the implicit principles of v5.0.
+  1. Coordination is the enemy (N(N-1)/2)
+  2. Speed creates stability (preserved from v5.0)
+  3. Knowledge lives in artifacts, not heads
 
 **Reason for Change:**
-Consensus requires unanimity, which in distributed systems leads to endless meetings and mediocre compromises. We are moving to **Consent** (the absence of paramount objections). This allows for **Bursty iteration**—executing and correcting fast if something goes wrong, rather than endlessly planning for a perfect start.
+AI has made implementation cheap. The new constraint is coordination overhead — every sync, handoff, and meeting now costs more than the work itself. These three laws encode this reality as first principles.
 
 ---
 
-### 2. New Topology: From Hierarchy to real Leaf-Spine
-* **Was:** Classic pyramid with upward escalation.
-* **Now:** **Leaf-Spine** Network Structure (based on Team Topologies).
+### 2. Topology: Leaf-Spine → Domain-Aligned Cells
+* **Was (v 5.0):** Leaf-Spine Network (Stream Engineers as Leafs, Platform & Leadership as Spine).
+* **Now (v 6.0):** **Cell Topology** — 3 humans + AI agent fleet per domain cell.
 
 **Reason for Change:**
-The old model created bottlenecks at the middle-management level.
-* **Leaf:** Stream Engineers delivering value directly. They are autonomous.
-* **Spine:** Platform & Leadership. Their role is not to command, but to interconnect and reduce cognitive load for Leaf teams.
-
-Management is no longer "above" engineers; it functions as support infrastructure.
+The Leaf-Spine model assumed individual Stream Engineers as the atomic unit. In the AI era, the atomic unit is a **cell of 3 + AI agents** — small enough to eliminate coordination tax (3 channels vs 136), large enough to avoid bus factor = 1. Cells are domain-aligned (IaaS+Network, PaaS+Observability, Automation+Data, Service Delivery) matching Conway's Law.
 
 ---
 
-### 3. Leader's Role: "The Shield" & "Stability Island"
-* **Was:** Owner—the one who gets "hanged" if the project fails.
-* **Now:** Owner is **"The Shield"** (Stability Interface).
+### 3. New Roles: PE, TE, AI Agents
+* **Was:** Stream Engineer, Tech Lead, Owner (The Shield), Director.
+* **Now:** **Product Engineer (PE)**, **Technical Engineer (TE)**, **AI Agents**, TPM, Service Delivery Lead, Director.
 
 **Reason for Change:**
-Engineers in a deep flow state are emotionally vulnerable. The leader's task is not just to answer for results, but to absorb external entropy and chaos, creating an "island of stability" for the team.
-* **Principle:** *Public Liability, Private Correction*. The leader publicly takes the blame ("I am to blame"), but privately demands strict accountability.
+The PE combines Product Sponsor ("why") and Principal Engineer ("how") — in infrastructure with narrow domain expertise, these are inseparable. The TE operates autonomously with AI agents (single person per epic). AI Agents are elevated to first-class team members. The Shield role is preserved in the Service Delivery Lead. The Director role is preserved. Tech Lead evolves into TPM (cross-cell coherence).
 
 ---
 
-### 4. Transparency: Level 3 Visibility
-* **Was:** Green/Red reports, general status updates.
-* **Now:** **Open Order Book**.
+### 4. New Concept: Floating Leadership
+* **New in v6.0:** Context determines who leads, not title.
 
 **Reason for Change:**
-Adopting the Financial Markets metaphor (Level 3 Market Data). We no longer believe in aggregated reports ("traffic lights") which often hide the truth. We open the "raw data": queue sizes, blockers, decision history. Transparency is the antidote to office politics.
+In a trio, the person who understands the problem best should drive the Design phase, regardless of their formal role. This prevents the "lead decides everything, we wait" anti-pattern and maximizes domain expertise utilization.
 
 ---
 
-### 5. Culture & HR: The Keeper Test instead of "Family"
-* **Was:** We are different, we do the impossible, respect is the default.
-* **Now:** We are a **Professional Sports Team**, not a family. Introducing **The Keeper Test**.
+### 5. Operating Model: Direction → Design → Delivery
+* **Was:** Implicit; relied on Consent for decision-making.
+* **Now:** Explicit **Direction → Design → Delivery** pipeline with Build + Run modes.
 
 **Reason for Change:**
-Borrowed from Netflix culture. Talent has a tendency to dilute.
-* **The Question:** *“If this employee told you they were leaving for a competitor, would you fight hard to keep them?”*
-* If the answer is **"No"**—we pay a generous severance and say goodbye.
-
-**Talent Density** is more important than comfort. Toxicity now includes **Ruinous Empathy**—failing to tell a colleague about their mistakes to avoid "hurting their feelings."
+Infrastructure teams must simultaneously Build new capabilities AND Run production systems. The old Spec→Design→Grooming→Dev→QA→Rework pipeline is dead. The new pipeline eliminates handoffs: one person designs (with validation), the cell delivers. Build/Run modes are states of the same cell, not different teams.
 
 ---
 
-### 6. Metrics: From Lines of Code to DORA
-* **Was:** Vague goals ("achieve big things without breaking").
-* **Now:** Strict **DORA Metrics** (DevOps Research and Assessment).
+### 6. AI-First Operating Model
+* **New in v6.0:** Entire section dedicated to AI as the operating model.
 
 **Reason for Change:**
-Scientific research proves that speed and stability are not trade-offs. We measure:
-1.  **Deployment Frequency** (How often we ship).
-2.  **Lead Time for Changes** (Time from commit to production).
-3.  **Time to Restore** (Fixing speed).
-4.  **Change Failure Rate** (Percentage of failures).
+AI adoption is no longer optional. Manual code writing, copy-paste to ChatGPT, line-by-line code reviews, splitting features into small tasks for teams — all obsolete. Engineers operate AI agent fleets. Agentic harnesses run for hours unattended. This is the reality as of March 2026 and the expectation from company leadership.
+
+---
+
+### 7. Metrics: DORA → 10 Vital Signs
+* **Was (v 5.0):** 4 DORA Metrics.
+* **Now (v 6.0):** **10 Vital Signs** across three categories.
+
+**Reason for Change:**
+DORA metrics alone don't capture the AI-era reality. We add:
+- **OKR Completion Rate** — are we shipping what matters?
+- **Build/Run Ratio** — are we building the future or firefighting?
+- **L2 Interruptions/Day** — can engineers maintain flow?
+- **Hero Bottleneck Events** — is any person a single point of failure?
+- **GSR Ticket Volume** — is self-service working?
+- **Active AI Users** — is everyone leveraging AI?
+- **MTTV (Mean Time to Verification)** — how fast can we validate AI output?
+
+---
+
+### 8. Keeper Standard: Elevated for AI Era
+* **Was:** Would you fight to keep them?
+* **Now:** Same test, **plus**: a Keeper multiplies impact through AI, shares learnings, creates harnesses for others.
+
+**Reason for Change:**
+A 1x engineer in a 10x world is a drag on Talent Density. The bar is higher: adaptability and AI fluency are now part of what makes someone a Keeper.
+
+---
+
+### 9. New: Rules of the Cell
+* **New in v6.0:** 7 explicit operating rules for cell members.
+
+**Reason for Change:**
+Autonomous cells need guardrails, not management. The rules encode hard-won lessons: no DM priorities, one person per epic, solution doc before code, automate the second time, own your on-call, demo don't report, unlearn constantly.
+
+---
+
+### 10. Culture: "It doesn't work" is not acceptable
+* **Added to Toxicity section.**
+
+**Reason for Change:**
+In the AI era, defeatism ("AI doesn't work for our use case") is as toxic as the old "that's not my job." Come with concrete examples and specific blockers — we solve them together. But blanket rejection of new tools is not tolerated.
+
+---
+
+### 11. Prime Directive: Evolved
+* **Was:** "Don't do stupid stuff."
+* **Now:** "Build systems that make humans unnecessary for routine work — so humans can focus on vision, judgment, and creative problem-solving."
+
+**Reason for Change:**
+The old directive was about avoiding harm. The new one is about actively building toward a future where human time is spent only on irreplaceable human contributions. AI handles the rest.
 
 ---
 
 ### Summary of Changes Table
 
-| Area | Version 4.1.2 (Old) | Version 5.0 (New) |
-| :--- | :--- | :--- |
-| **Philosophy** | Heroism, Consensus, Respect | **Cognitive Flow**, Consent, **Talent Density** |
-| **Structure** | Horizontal / Pyramid | **Leaf-Spine** (Network Topology) |
-| **Manager Role** | Organizer / Arbitrator | **Stability Interface / The Shield** |
-| **Transparency** | Project Statuses | **Open Order Book** (Radical Visibility) |
-| **Firing** | For breaking rules | **Keeper Test** (For lowering the bar) |
-| **Metrics** | Goal Achievement | **DORA Metrics** + Flow Efficiency |
+| Area | Version 5.0 (Old) | Version 6.0 (New) |
+|:---|:---|:---|
+| **Philosophy** | Cognitive Flow, Consent, Talent Density | **AI-First Cells**, Consent, **Coordination is the Enemy** |
+| **Structure** | Leaf-Spine (Network Topology) | **Domain-Aligned Cells** (3 humans + AI agents) |
+| **Atomic Unit** | Stream Engineer (individual) | **Cell** (PE + 2 TEs + AI fleet) |
+| **Leadership** | Tech Lead (Bar Raiser) | **Floating Leadership** (context-driven) + TPM |
+| **Manager Role** | Stability Interface / The Shield | **Service Delivery Lead** (Shield) + **TPM** (Coherence) |
+| **Operating Model** | Implicit (Consent-based) | **Direction → Design → Delivery** with Build/Run modes |
+| **AI** | Not addressed | **First-class team members**; agentic harnesses mandatory |
+| **Metrics** | 4 DORA Metrics | **10 Vital Signs** (Delivery + Operational + AI Adoption) |
+| **Keeper Test** | Would you fight to keep them? | Same + **AI multiplication** required |
+| **Prime Directive** | Don't do stupid stuff | **Build systems that make humans unnecessary for routine** |
 
-> *“We don’t need industrial-era management for quantum-era problems.”*
+> *"v5.0 didn't need industrial-era management for quantum-era problems. v6.0 doesn't need quantum-era management for post-AI problems."*
 
 ---
+
+### Previous Change Notes
+
+<details>
+<summary>v 4.1.2 → v 5.0 (Dec 15, 2025)</summary>
+
+We abandoned the "industrial era" paradigm (where people are cogs and success depends on heroism) in favor of "Quantum Technocracy." In v5.0, the focus shifted from hunting for "rock stars" to managing Cognitive Load and creating Flow. We acknowledged that modern systems are too complex for a single mind, so the team architecture changed from hierarchical to networked (Leaf-Spine).
+
+1. **Decision Making:** Consensus → Consent (Sociocracy)
+2. **Topology:** Hierarchy → Leaf-Spine Network Structure
+3. **Leader's Role:** Owner → "The Shield" (Stability Interface)
+4. **Transparency:** Green/Red reports → Open Order Book (Radical Visibility)
+5. **Culture & HR:** "Family" → Pro Team with Keeper Test
+6. **Metrics:** Vague goals → DORA Metrics
+
+</details>
